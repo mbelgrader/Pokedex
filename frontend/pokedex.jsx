@@ -8,7 +8,7 @@ import Root from './components/root';
 
 document.addEventListener('DOMContentLoaded', () => {
   const store = configureStore();
-  // window.store = store;
+  window.store = store;
   const rootEl = document.getElementById('root');
   // window.receiveAllPokemon = receiveAllPokemon;
   // window.selectAllPokemon = selectAllPokemon;
